@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="container">
+        <div class="app-container">
+            <div class="upper-section">
+                <input type="text" class="search" placeholder="Search city or country">
+                <button class="search-btn"><img src="/images/search.png" alt="" width="15">
+                </button>
+            </div>
+            <div class="main-section">
+                <div class="img-weather">
+                    <img src="images/mist.png" alt="" width="150">
+                </div>
+                <div class="temperature">34&deg;C</div>
+                <div class="lower-main">
+                    <div class="humidity">
+                        <img src="images/humidity.png" width="50" alt="">
+                        <div class="text-humidity">
+                            <span>70%</span>
+                            <span>Humidity</span>
+                        </div>
+                    </div>
+                    <div class="wind-speed">
+                        <img src="images/wind.png" width="50" alt="">
+                        <div class="text-wind-speed">
+                            <span>5 km/h</span>
+                            <span>Wind Speed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src=""></script>
 </body>
+
 </html>

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.app-container {
+    width: 50vw;
+    height: 70vh;
+    padding: 8px;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, rgb(255, 174, 0), purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.upper-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+
+.search {
+    width: 170px;
+    height: 20px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.search-btn {
+    height: 20px;
+    padding: 18px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-weather {
+    width: 200px;
+}
+
+.temperature {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.lower-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity,
+.wind-speed {
+    width: 180px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.text-humidity,
+.text-wind-speed {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
