@@ -10,7 +10,8 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(180, 226, 43);    background: linear-gradient(to right bottom, rgb(255, 174, 0), purple);   display: flex;
+    background: linear-gradient(to right bottom, rgb(44 53 156), purple);
+    display: flex;
     align-items: center;
     justify-content: center;
     color: white;
