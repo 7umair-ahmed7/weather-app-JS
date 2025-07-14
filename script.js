@@ -7,8 +7,6 @@ let humidityElement = document.querySelector(".humidity-val-element");
 let windElement = document.querySelector(".wind-val-element");
 
 
-
-
 async function getData(city = "manchester") {
     try {
         let URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=99c975fda5cd1cffbf5e521a6aa3a34e`;

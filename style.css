@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: "poppins", sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
@@ -18,8 +19,7 @@
 
 .app-container {
     width: 50vw;
-    height: 70vh;
-    padding: 8px;
+    padding: 40px 20px;
     border-radius: 10px;
     background: linear-gradient(to right bottom, rgb(255, 174, 0), purple);
     display: flex;
@@ -38,8 +38,8 @@
 
 
 .search {
-    width: 170px;
-    height: 20px;
+    width: 200px;
+    height: 35px;
     padding: 8px 10px;
     border: none;
     border-radius: 10px;
@@ -95,4 +95,25 @@
     display: flex;
     flex-direction: column;
     font-weight: 500;
+}
+
+@media screen and (max-width: 780px) {
+    .lower-main {
+        margin-top: 40px;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .app-container {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .lower-main {
+        flex-direction: row;
+
+    }
 }
